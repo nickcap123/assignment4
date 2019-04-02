@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/WhiteHair.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100;
+    display: flex;
+    flex-direction: column;
+    background-color: #E9DEEE;
+
+}
+
+.main-text {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+
+.andy-quote {
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+}
+
+
+p {
+    font-family: sans-serif;
+
+}
+
+h2 {
+    font-family: monospace;
+    color: #E9DEEE;
+    font-size: 25px
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #EF423E;
+    border: 3px solid #E9DEEE;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 80%;
+    text-align: center;
+    font-size: 50px
+}
+
+#content {
+    color: #EF423E;
+
+
+}
+
+
+footer {
+    font-family: monospace;
+    color: #E9DEEE
+}
+
+a {
+    font-family: monospace;
+    color: #E9DEEE
+}
+
+ul {
+    font-family: sans-serif;
+    color: #EF423E
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #7488A0;
+}
+
+header nav {
+    flex: 1
+}
+
+@media screen and (max-width: 30rem) {
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
+}
