@@ -88,6 +88,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #7488A0;
+    flex-direction: row;
 }
 
 header nav {
