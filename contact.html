@@ -19,19 +19,62 @@
         </ul>
     </nav>
 
- 
+
 </header>
 
 <body>
-   <main>
-        <form>
-            <p>Please fill out your info!</p>
-            <label for="firstname">First Name: </label>
-            <input type="text" name="firstname" id="firstname">
-            <label for="lastname">Last Name: </label>
-            <input type="text" name="lastname" id="lastname">
-            <label for="email">E-mail: </label>
-            <input type="text" name="email" id="email">
+    <main>
+        <form action="contactsubmit.html">
+            <div>
+                <label for="firstname">First Name </label>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+            <div>
+                <label for="lastname">Last Name </label>
+                <input type="text" name="lastname" id="lastname">
+            </div>
+            <div>
+                <label for="email">E-mail </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="find-us">How'd you find us?</label>
+                <select name="find-us" id="find-us" multiple="true">
+                    <option value="friend-family">Friends or Family</option>
+                    <option value="ad">Advertisment</option>
+                    <option value="third-party">Third Party Site</option>
+                    <option value="art">Art Related Inquiry</option>
+                    <option value="search">Search</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Anything you want to share?</label>
+                <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+            </div>
+
+            <div class="radio-buttons">
+                <label for="newsletter">Would you like to join our newsletter to recieve news based on our site and cool offers to other fun art excusions?</label>
+                <input type="radio" name="newsletter" value="Yes" checked>Yes please!
+                <input type="radio" name="newsletter" value="No">No thank you.
+            </div>
+           
+            <div class="checkboxes">
+            <label for="devices">What platforms do you use?</label>
+                <input type="checkbox" name="devices" value="Phone"> Phone
+                <input type="checkbox" name="devices" value="Computer">Computer
+                <input type="checkbox" name="devices" value="Other Web Based Device">Other Web Based Device
+            
+            </div>
+            <br>
+
+
+            <p>
+                <label></label>
+                <input type="submit" value="Submit">
+            </p>
+
+
         </form>
     </main>
 </body>
