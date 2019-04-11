@@ -21,14 +21,12 @@ body {
 
 }
 
-/*
 .main-text {
     padding: 3em;
     display: flex;
     flex-direction: co lumn;
     flex: 5;
 }
-*/
 
 /*
 .andy-quote {
@@ -134,11 +132,11 @@ form {
 .checkboxes {
     display: flex;
 /*    flex-direction: column;*/
+    
 }
 
 .checkboxes input {
     flex: 1;
-    display:block;
     
 }
 
@@ -146,6 +144,15 @@ form div {
     display: flex;
     flex: 1;
     
+}
+
+div .checkboxes {
+    flex-direction: column;
+}
+
+.checkboxes p {
+    
+    font-family: monospace;
 }
 
 form label {
@@ -164,12 +171,10 @@ form select {
     text-align: center;
 }
 
-/*
 form input[type=submit] {
     color: #EF423E;
     font-family: monospace;
 }
-*/
 
 .radio-buttons {
     margin-right: 7px;
@@ -182,4 +187,10 @@ form input[type=submit] {
 
 .space {
     justify-content: space-around;
+}
+
+.banana {
+    height: 50vh;
+    margin-left: auto;
+        margin-right:auto;
 }
